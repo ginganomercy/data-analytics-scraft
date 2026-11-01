@@ -1,0 +1,31 @@
+{
+  "userId": "59259338741",
+  "username": "shelwa_craft",
+  "displayName": "Shelwa_Craft",
+  "profileUrl": "https://www.instagram.com/shelwa_craft/",
+  "lastScrapedAt": "2026-10-31T16:33:14.333Z",
+  "stats": {
+    "followers": 58,
+    "following": 40,
+    "posts": 38,
+    "followerToFollowingRatio": 1.45,
+    "estimatedMonthlyProfileViews": 336,
+    "auditHealthScore": 58
+  },
+  "bio": {
+    "rawText": "Wedding Organizer &Vendor Bouqet Custom Indonesia 💐\nOur Service :\n1. Wedding\n2. Engagement\n3. Graduate\n4. Custom Flower Bouqet",
+    "hasExternalLink": false,
+    "hasLocation": false,
+    "identifiedServices": [
+      "Wedding Services",
+      "Engagement Floral & Decor",
+      "Graduate (Wisuda)",
+      "Custom Flower Bouquet"
+    ],
+    "identifiedTypos": [
+      "Ejaan \"Bouqet\" (seharusnya \"Bouquet\" atau bahasa Indonesia \"Buket\")",
+      "Spasi menempel pada \"&Vendor\""
+    ],
+    "recommendedText": "Shelwa Craft | Custom Floral & Bouquet Studio\nStudio bunga kustom untuk pernikahan, lamaran & wisuda\n📍 Wilayah Layanan: [Nama Kota, misal: Bandung & Sekitarnya]\n• Bridal Bouquet • Engagement Styling • Graduation\nKonsultasi & Pemesanan:\nwa.me/628xxxxxxxxxx (atau linktr.ee/shelwacraft)"
+  }
+}
