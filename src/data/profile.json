@@ -1,31 +1,33 @@
 {
-  "userId": "59259338741",
-  "username": "shelwa_craft",
-  "displayName": "Shelwa_Craft",
-  "profileUrl": "https://www.instagram.com/shelwa_craft/",
-  "lastScrapedAt": "2026-10-31T16:33:14.333Z",
+  "userId": "67158200928",
+  "username": "pearl.storeflowers",
+  "displayName": "𝐅𝐥𝐨𝐫𝐢𝐬𝐭 & 𝐀𝐫𝐭𝐢𝐬𝐭𝐢𝐜 𝐅𝐥𝐨𝐰𝐞𝐫 𝐀𝐫𝐫𝐚𝐧𝐠𝐞𝐫 (@pearl.storeflowers) • Instagram photos and videos",
+  "decodedDisplayName": "Florist & Artistic Flower Arranger (@pearl.storeflowers) • Instagram photos and videos",
+  "profileUrl": "https://www.instagram.com/pearl.storeflowers/",
+  "avatarUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/450454471_820690286445234_9142256698308023406_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=cJuSGDnRt-4Q7kNvwGgYCM4&_nc_oc=Adq6k6ygdLZvWzv76n6IEbAaw8vl37hpywq-uAbiTHJDAAPz6GbzmLPxpRYRiMoyQq-5Rx61VNnPanwprzmwTWY7&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b60f&oh=00_AQTHU9onjSPswQu-gFWRj-g8L13puBPOwGjO4aXMwstS_w&oe=6AEED6F5",
+  "lastScrapedAt": "2026-11-02T23:37:21.689Z",
   "stats": {
-    "followers": 58,
-    "following": 40,
-    "posts": 38,
-    "followerToFollowingRatio": 1.45,
-    "estimatedMonthlyProfileViews": 336,
-    "auditHealthScore": 58
+    "followers": 63,
+    "following": 135,
+    "posts": 44,
+    "followerToFollowingRatio": 0.47,
+    "estimatedMonthlyProfileViews": 410,
+    "auditHealthScore": 68
   },
   "bio": {
-    "rawText": "Wedding Organizer &Vendor Bouqet Custom Indonesia 💐\nOur Service :\n1. Wedding\n2. Engagement\n3. Graduate\n4. Custom Flower Bouqet",
+    "rawText": "Bloom Your Way Every Day!\n.\nStore Open\n09.00 - 17.00 WIB\n📍Jl. Raya Slawi Jatibarang Ruko Kirana Lestari Blok D5",
     "hasExternalLink": false,
-    "hasLocation": false,
+    "hasLocation": true,
+    "identifiedLocation": "Ruko Kirana Lestari Blok D5, Jl. Raya Slawi Jatibarang, Tegal/Slawi",
+    "operatingHours": "09.00 - 17.00 WIB",
     "identifiedServices": [
-      "Wedding Services",
-      "Engagement Floral & Decor",
-      "Graduate (Wisuda)",
-      "Custom Flower Bouquet"
+      "Florist & Hand Bouquet Atelier",
+      "Wedding & Bridal Bouquet",
+      "Lamaran & Engagement Floral Styling",
+      "Wisuda & Kelulusan (Graduation)",
+      "Bunga Abadi (Preserved Flower Dome & Frame 3D)"
     ],
-    "identifiedTypos": [
-      "Ejaan \"Bouqet\" (seharusnya \"Bouquet\" atau bahasa Indonesia \"Buket\")",
-      "Spasi menempel pada \"&Vendor\""
-    ],
-    "recommendedText": "Shelwa Craft | Custom Floral & Bouquet Studio\nStudio bunga kustom untuk pernikahan, lamaran & wisuda\n📍 Wilayah Layanan: [Nama Kota, misal: Bandung & Sekitarnya]\n• Bridal Bouquet • Engagement Styling • Graduation\nKonsultasi & Pemesanan:\nwa.me/628xxxxxxxxxx (atau linktr.ee/shelwacraft)"
+    "identifiedTypos": [],
+    "recommendedText": "Pearl Store Flowers | Luxury Floral & Bouquet Atelier\nBloom Your Way Every Day! ✨\n📍 Ruko Kirana Lestari Blok D5, Jl. Raya Slawi Jatibarang, Tegal/Slawi\n🕒 Buka Setiap Hari: 09.00 - 17.00 WIB\n• Wedding Bridal • Lamaran • Wisuda • Bunga Abadi\nPemesanan & Konsultasi Langsung:\nwa.me/628xxxxxxxxxx (atau linktr.ee/pearlstoreflowers)"
   }
 }

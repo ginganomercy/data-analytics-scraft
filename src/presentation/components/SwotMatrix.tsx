@@ -16,7 +16,7 @@ export const SwotMatrix: React.FC<SwotMatrixProps> = ({ swot }) => {
           </div>
           <div>
             <h2 className="text-base font-bold text-slate-900 tracking-tight print:text-sm">
-              Matriks Strategis & Posisi Pasar (@shelwa_craft)
+              Matriks Strategis & Posisi Pasar (@pearl.storeflowers)
             </h2>
             <p className="text-xs text-slate-500 print:text-[10px]">
               Pemetaan faktor internal studio dan dinamika pasar eksternal

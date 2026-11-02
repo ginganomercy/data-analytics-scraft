@@ -3,8 +3,16 @@
  * Adhering to rule: All numeric thresholds must be named constants.
  */
 
-export const AUDIT_DATE_ISO = '2026-10-31';
-export const AUDIT_DATE_DISPLAY = '31 Oktober 2026';
+export const AUDIT_DATE_ISO = '2026-11-03';
+export const AUDIT_DATE_DISPLAY = '3 November 2026';
+
+export const STUDIO_METADATA = {
+  BRAND_NAME: 'Pearl Store Flowers',
+  HANDLE: '@pearl.storeflowers',
+  INSTAGRAM_URL: 'https://www.instagram.com/pearl.storeflowers/',
+  LOCATION: 'Ruko Kirana Lestari Blok D5, Jl. Raya Slawi Jatibarang, Tegal/Slawi',
+  HOURS: '09.00 - 17.00 WIB',
+} as const;
 
 export const BENCHMARK_THRESHOLDS = {
   // Engagement rates
@@ -22,13 +30,14 @@ export const BENCHMARK_THRESHOLDS = {
   
   // Growth Targets
   TARGET_FOLLOWER_GOAL_60_DAYS: 300,
-  CURRENT_FOLLOWER_COUNT: 58,
-  CURRENT_FOLLOWING_COUNT: 40,
-  CURRENT_POSTS_COUNT: 38,
+  CURRENT_FOLLOWER_COUNT: 63,
+  CURRENT_FOLLOWING_COUNT: 135,
+  CURRENT_POSTS_COUNT: 44,
+  CURRENT_RATIO: 0.47,
   
   // Audit Score weights
   SCORE_TOTAL_MAX: 100,
-  CURRENT_AUDIT_SCORE: 58,
+  CURRENT_AUDIT_SCORE: 68,
 } as const;
 
 export const CATEGORY_FILTERS = [

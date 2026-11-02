@@ -30,9 +30,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
     { id: 'bio-audit', index: '03', label: 'Evaluasi Etalase Bio', icon: Flower2 },
     { id: 'funnel-section', index: '04', label: 'Alur Funnel Pelanggan', icon: Layers },
     { id: 'content-pillars', index: '05', label: 'Pilar Konten Reels', icon: Sliders },
-    { id: 'swot-section', index: '06', label: 'Matriks Strategis SWOT', icon: Compass },
-    { id: 'audit-log', index: '07', label: 'Log Parameter Audit', icon: ClipboardCheck },
-    { id: 'roadmap-section', index: '08', label: 'Rencana Aksi 4 Fase', icon: CheckSquare },
+    { id: 'gallery', index: '06', label: 'Galeri Postingan Live', icon: Layers },
+    { id: 'swot-section', index: '07', label: 'Matriks Strategis SWOT', icon: Compass },
+    { id: 'audit-log', index: '08', label: 'Log Parameter Audit', icon: ClipboardCheck },
+    { id: 'roadmap-section', index: '09', label: 'Rencana Aksi 4 Fase', icon: CheckSquare },
   ];
 
   // Observasi scroll untuk menandai bab yang sedang aktif

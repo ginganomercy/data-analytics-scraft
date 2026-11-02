@@ -9,19 +9,20 @@ import {
 } from '../domain/types';
 import profileData from '../data/profile.json';
 
-export const SHELWA_PROFILE_DATA: InstagramProfileSummary = {
+export const PEARL_STORE_PROFILE_DATA: InstagramProfileSummary = {
   userId: profileData.userId,
   username: profileData.username,
   displayName: profileData.displayName,
-  profileType: 'Studio Florist & Kerajinan Seremonial',
+  profileType: 'Atelier Florist & Kerajinan Rangkaian Bunga',
   profileUrl: profileData.profileUrl,
+  avatarUrl: profileData.avatarUrl,
   stats: {
     followers: profileData.stats.followers,
     following: profileData.stats.following,
     posts: profileData.stats.posts,
     followerToFollowingRatio: profileData.stats.followerToFollowingRatio,
     estimatedMonthlyProfileViews: profileData.stats.estimatedMonthlyProfileViews,
-    engagementRatePercent: 1.8,
+    engagementRatePercent: 2.1,
     auditHealthScore: profileData.stats.auditHealthScore,
   },
   bio: {
@@ -34,12 +35,14 @@ export const SHELWA_PROFILE_DATA: InstagramProfileSummary = {
   },
 };
 
+export const SHELWA_PROFILE_DATA = PEARL_STORE_PROFILE_DATA;
+
 export const FUNNEL_STAGES_DATA: readonly FunnelStageMetric[] = [
   {
     id: 'stage-visits',
-    stage: 'Kunjungan Profil Publik',
-    description: 'Pengunjung yang membuka profil Instagram @shelwa_craft per bulan',
-    count: 340,
+    stage: 'Kunjungan Profil Publik & Toko',
+    description: 'Pengunjung yang membuka profil Instagram @pearl.storeflowers per bulan',
+    count: 410,
     conversionRate: 100,
     dropOffPercentage: 0,
     status: 'normal',
@@ -47,19 +50,19 @@ export const FUNNEL_STAGES_DATA: readonly FunnelStageMetric[] = [
   {
     id: 'stage-engagement',
     stage: 'Eksplorasi Konten (Feed & Reels)',
-    description: 'Audiens yang menyukai, menyimpan, atau melihat detail postingan',
-    count: 85,
-    conversionRate: 25.0,
-    dropOffPercentage: 75.0,
+    description: 'Audiens yang menyukai, menyimpan, atau melihat detail postingan buket',
+    count: 115,
+    conversionRate: 28.0,
+    dropOffPercentage: 72.0,
     status: 'normal',
-    bottleneckReason: 'Mayoritas postingan adalah foto statis tanpa pancingan call-to-action.',
+    bottleneckReason: 'Konten feed mulai beragam namun perlu pancingan call-to-action interaktif.',
   },
   {
     id: 'stage-inquiry',
-    stage: 'Inisiasi Kontak (WhatsApp / DM)',
-    description: 'Calon pembeli yang memutuskan menghubungi pengrajin',
-    count: 14,
-    conversionRate: 4.1,
+    stage: 'Inisiasi Kontak (WhatsApp / Walk-in)',
+    description: 'Calon pembeli yang memutuskan menghubungi florist atau datang ke ruko',
+    count: 19,
+    conversionRate: 4.6,
     dropOffPercentage: 83.5,
     status: 'critical',
     bottleneckReason: 'Ketiadaan tautan WhatsApp di bio; calon pembeli malas mengirim pesan manual via DM.',
@@ -67,12 +70,12 @@ export const FUNNEL_STAGES_DATA: readonly FunnelStageMetric[] = [
   {
     id: 'stage-closed',
     stage: 'Konfirmasi Transaksi (Deal Closed)',
-    description: 'Pesanan buket bunga atau dekorasi yang terbayar lunas',
-    count: 3,
-    conversionRate: 0.88,
-    dropOffPercentage: 78.6,
+    description: 'Pesanan buket bunga atau dekorasi seremonial yang terbayar lunas',
+    count: 5,
+    conversionRate: 1.22,
+    dropOffPercentage: 73.7,
     status: 'leakage',
-    bottleneckReason: 'Ketiadaan daftar harga paket membuat konsultasi chat bertele-tele.',
+    bottleneckReason: 'Ketiadaan katalog web harga tetap membuat konsultasi chat bertele-tele.',
   },
 ];
 
@@ -146,20 +149,20 @@ export const AUDIT_CHECKLIST_DATA: readonly AuditChecklistItem[] = [
   {
     id: 'chk-1',
     category: 'Bio & Profil',
-    title: 'Handle & Identitas Akun',
-    currentCondition: '@shelwa_craft singkat, relevan dengan niche, dan mudah diingat.',
+    title: 'Handle & Identitas Rebranding',
+    currentCondition: '@pearl.storeflowers relevan, mewah, dan mempertegas positioning sebagai florist profesional.',
     status: 'pass',
-    recommendation: 'Pertahankan identitas ini secara konsisten di seluruh kanal komunikasi.',
+    recommendation: 'Pertahankan identitas visual dan monogram ini secara seragam di seluruh kanal digital.',
     priority: 'Rendah',
   },
   {
     id: 'chk-2',
     category: 'Bio & Profil',
-    title: 'Wilayah Layanan & Domisili',
-    currentCondition: 'Hanya mencantumkan "Indonesia" tanpa menyebutkan kota pengiriman utama.',
-    status: 'fail',
-    recommendation: 'Cantumkan kota domisili (contoh: "Bandung & Sekitarnya") demi kejelasan logistik.',
-    priority: 'Tinggi',
+    title: 'Wilayah Layanan & Lokasi Workshop',
+    currentCondition: 'Sudah mencantumkan alamat fisik nyata: Ruko Kirana Lestari Blok D5, Slawi-Jatibarang.',
+    status: 'pass',
+    recommendation: 'Lengkapi radius jangkauan kurir lokal (Slawi, Tegal, Brebes) serta opsi ekspedisi kargo luar kota.',
+    priority: 'Sedang',
   },
   {
     id: 'chk-3',

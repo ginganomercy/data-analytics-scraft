@@ -18,9 +18,17 @@ export const Header: React.FC<HeaderProps> = ({ profile }) => {
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           {/* Brand & Account Info */}
           <div className="flex items-center space-x-3.5">
-            <div className="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center text-white shadow-xs print:w-8 print:h-8">
-              <Flower2 className="w-5 h-5 text-rose-200 print:w-4 print:h-4" strokeWidth={1.75} />
-            </div>
+            {profile.avatarUrl ? (
+              <img
+                src={profile.avatarUrl}
+                alt={profile.username}
+                className="w-10 h-10 rounded-xl object-cover border border-slate-200 shadow-xs print:w-8 print:h-8"
+              />
+            ) : (
+              <div className="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center text-white shadow-xs print:w-8 print:h-8">
+                <Flower2 className="w-5 h-5 text-rose-200 print:w-4 print:h-4" strokeWidth={1.75} />
+              </div>
+            )}
 
             <div>
               <div className="flex items-center gap-2 flex-wrap">

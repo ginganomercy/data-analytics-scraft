@@ -34,11 +34,11 @@ describe('formatters', () => {
 });
 
 describe('benchmark constants', () => {
-  it('should contain valid baseline metrics for shelwa_craft', () => {
-    expect(BENCHMARK_THRESHOLDS.CURRENT_FOLLOWER_COUNT).toBe(58);
-    expect(BENCHMARK_THRESHOLDS.CURRENT_FOLLOWING_COUNT).toBe(40);
-    expect(BENCHMARK_THRESHOLDS.CURRENT_POSTS_COUNT).toBe(38);
-    expect(BENCHMARK_THRESHOLDS.CURRENT_AUDIT_SCORE).toBe(58);
+  it('should contain valid baseline metrics for pearl.storeflowers', () => {
+    expect(BENCHMARK_THRESHOLDS.CURRENT_FOLLOWER_COUNT).toBe(63);
+    expect(BENCHMARK_THRESHOLDS.CURRENT_FOLLOWING_COUNT).toBe(135);
+    expect(BENCHMARK_THRESHOLDS.CURRENT_POSTS_COUNT).toBe(44);
+    expect(BENCHMARK_THRESHOLDS.CURRENT_AUDIT_SCORE).toBe(68);
   });
 });
 

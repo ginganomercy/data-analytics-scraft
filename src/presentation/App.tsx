@@ -10,6 +10,7 @@ import { ContentPillarsChart } from './components/ContentPillarsChart';
 import { SwotMatrix } from './components/SwotMatrix';
 import { AuditList } from './components/AuditList';
 import { RoadmapView } from './components/RoadmapView';
+import { PostGallery } from './components/PostGallery';
 import { Users, UserCheck, Image, Activity, Flower2, BarChart2, ArrowUpRight } from 'lucide-react';
 
 export const App: React.FC = () => {
@@ -137,6 +138,9 @@ export const App: React.FC = () => {
               <section id="content-pillars" className="scroll-mt-24">
                 <ContentPillarsChart pillars={contentPillars} />
               </section>
+
+              {/* Scraped Instagram Post Gallery */}
+              <PostGallery />
             </div>
 
             {/* ==================================================================
@@ -202,7 +206,7 @@ export const App: React.FC = () => {
           © 2026 Rafly Ashraffi Rachmat. Seluruh hak cipta dilindungi undang-undang.
         </p>
         <p className="mt-0.5 text-slate-400 text-[11px] print:text-[9px]">
-          Dokumen Laporan Audit & Analisis Strategis Kanal Media Sosial • @shelwa_craft
+          Dokumen Laporan Audit & Analisis Strategis Kanal Media Sosial • @pearl.storeflowers
         </p>
       </footer>
     </div>

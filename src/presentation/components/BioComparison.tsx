@@ -57,11 +57,11 @@ export const BioComparison: React.FC<BioComparisonProps> = ({
               <ul className="text-xs text-slate-600 space-y-1 print:text-[10px]">
                 <li className="flex items-start gap-1.5">
                   <span className="text-slate-400 font-bold shrink-0">1.</span>
-                  <span><strong>Ketiadaan Tautan Langsung:</strong> Pembeli harus mengetik DM manual.</span>
+                  <span><strong>Ketiadaan Tautan Langsung:</strong> Pembeli harus mengetik DM manual (titik kebocoran utama).</span>
                 </li>
                 <li className="flex items-start gap-1.5">
                   <span className="text-slate-400 font-bold shrink-0">2.</span>
-                  <span><strong>Wilayah Belum Spesifik:</strong> Tertulis hanya &quot;Indonesia&quot;.</span>
+                  <span><strong>Alamat Fisik Terverifikasi:</strong> Lokasi ruko di Slawi-Jatibarang sudah jelas dan kredibel.</span>
                 </li>
                 {bio.identifiedTypos.map((typo, idx) => (
                   <li key={idx} className="flex items-start gap-1.5">

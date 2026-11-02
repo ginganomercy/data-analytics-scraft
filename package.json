@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "scrape": "bun run scripts/scrape.ts"
+    "scrape": "bun run scripts/scrape-profile.ts",
+    "scrape:profile": "bun run scripts/scrape-profile.ts",
+    "scrape:media": "node scripts/scrape-media.cjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -22,10 +24,10 @@
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
     "autoprefixer": "^10.4.20",
+    "playwright": "^1.64.1",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.6.3",
     "vite": "^5.4.10"
   }
 }
-
