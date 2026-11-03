@@ -9,9 +9,10 @@
     "preview": "vite preview",
     "scrape": "bun run scripts/scrape-profile.ts",
     "scrape:profile": "bun run scripts/scrape-profile.ts",
+    "scrape:avatar": "node scripts/scrape-avatar.cjs",
     "scrape:media": "node scripts/scrape-media.cjs",
     "scrape:highlights": "node scripts/scrape-highlights.cjs",
-    "scrape:all": "bun run scrape:profile && node scripts/scrape-highlights.cjs && node scripts/scrape-media.cjs"
+    "scrape:all": "bun run scrape:profile && node scripts/scrape-avatar.cjs && node scripts/scrape-highlights.cjs && node scripts/scrape-media.cjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

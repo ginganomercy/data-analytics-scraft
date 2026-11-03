@@ -170,3 +170,4 @@ scrapeHighlights().catch((err) => {
   console.error('[Highlights Scraper Fatal]', err);
   process.exit(1);
 });
+
