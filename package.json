@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "scrape": "bun run scripts/scrape-profile.ts",
     "scrape:profile": "bun run scripts/scrape-profile.ts",
-    "scrape:media": "node scripts/scrape-media.cjs"
+    "scrape:media": "node scripts/scrape-media.cjs",
+    "scrape:highlights": "node scripts/scrape-highlights.cjs",
+    "scrape:all": "bun run scrape:profile && node scripts/scrape-highlights.cjs && node scripts/scrape-media.cjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

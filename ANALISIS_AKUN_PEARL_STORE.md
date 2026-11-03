@@ -104,3 +104,4 @@ wa.me/628xxxxxxxxxx (atau linktr.ee/pearlstoreflowers)
    - Unggah 3x seminggu konten video pendek Reels proses merangkai bunga (*behind-the-scenes*) di ruko Kirana Lestari Slawi.
 4. **Fase 4 (Bulan 2 - 3 — Partnership)**:
    - Jalin kerja sama dengan MUA pengantin lokal Tegal-Slawi dan studio foto wisuda.
+

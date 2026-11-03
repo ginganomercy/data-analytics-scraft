@@ -11,6 +11,7 @@ import { SwotMatrix } from './components/SwotMatrix';
 import { AuditList } from './components/AuditList';
 import { RoadmapView } from './components/RoadmapView';
 import { PostGallery } from './components/PostGallery';
+import { HighlightsViewer } from './components/HighlightsViewer';
 import { Users, UserCheck, Image, Activity, Flower2, BarChart2, ArrowUpRight } from 'lucide-react';
 
 export const App: React.FC = () => {
@@ -138,6 +139,9 @@ export const App: React.FC = () => {
               <section id="content-pillars" className="scroll-mt-24">
                 <ContentPillarsChart pillars={contentPillars} />
               </section>
+
+              {/* Scraped Instagram Highlights Tray */}
+              <HighlightsViewer />
 
               {/* Scraped Instagram Post Gallery */}
               <PostGallery />

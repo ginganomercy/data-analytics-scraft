@@ -86,3 +86,24 @@ export interface RoadmapPhase {
   readonly expectedImpact: string;
 }
 
+export type HighlightCategoryTag = 'Promo' | 'Location' | 'Catalog' | 'Testimonial' | 'Career' | 'General';
+
+export interface InstagramHighlightItem {
+  readonly id: string;
+  readonly title: string;
+  readonly url: string;
+  readonly coverUrl: string;
+  readonly localCoverRelativePath: string;
+  readonly categoryTag: HighlightCategoryTag;
+  readonly scrapedAt: string;
+}
+
+export interface HighlightSummary {
+  readonly account: string;
+  readonly totalHighlights: number;
+  readonly totalCoversDownloaded: number;
+  readonly lastScrapedAt: string;
+  readonly highlights: readonly InstagramHighlightItem[];
+}
+
+

@@ -37,7 +37,7 @@ export const BENCHMARK_THRESHOLDS = {
   
   // Audit Score weights
   SCORE_TOTAL_MAX: 100,
-  CURRENT_AUDIT_SCORE: 68,
+  CURRENT_AUDIT_SCORE: 75,
 } as const;
 
 export const CATEGORY_FILTERS = [
